@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "outDir": "tmp-compile",
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "noLib": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "client-src/*",
+        "typings/browser.d.ts",
+        "node_modules/typescript/lib/lib.es6.d.ts"
+    ],
+    "compileOnSave": false,
+    "files": [
+        "client-src/defines.d.ts",
+        "typings/browser.d.ts",
+        "node_modules/typescript/lib/lib.es6.d.ts",
+        "client-src/actions",
+        "client-src/components",
+        "client-src/index.less",
+        "client-src/index.tsx",
+        "client-src/reducers",
+        "client-src/store"
+    ]
+}
